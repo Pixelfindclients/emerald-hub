@@ -3,59 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emerald Hub | Central Resource Node</title>
+    <title>Emerald Hub | Scripts & Launchers</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <nav>
-        <div class="container">
+        <div class="container nav-container">
             <div class="logo">Emerald<span>Hub</span></div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#hub">The Hub</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact" class="btn-nav">Join Us</a></li>
+                <li><a href="#scripts">Roblox</a></li>
+                <li><a href="#launchers">Minecraft</a></li>
+                <li><a href="#request">Requests</a></li>
             </ul>
         </div>
     </nav>
 
-    <header id="home" class="hero">
-        <div class="hero-content">
-            <h1>The Digital Center of the Emerald Ecosystem</h1>
-            <p>Access tools, community updates, and project resources all in one place.</p>
-            <div class="hero-btns">
-                <a href="#hub" class="btn-primary">Enter Hub</a>
-                <a href="https://github.com" class="btn-secondary">View GitHub</a>
+    <header class="hero">
+        <div class="container">
+            <div class="badge">BETA ACCESS v0.1</div>
+            <h1>The Ultimate Gaming Utility</h1>
+            <p>Premium Roblox scripts and custom Minecraft launchers. High performance, zero bloat.</p>
+            <div class="hero-actions">
+                <a href="#scripts" class="btn-primary">View Scripts</a>
+                <a href="#request" class="btn-outline">Join Discord</a>
             </div>
         </div>
     </header>
 
-    <section id="hub" class="hub-section">
-        <div class="container">
-            <h2 class="section-title">Emerald Services</h2>
+    <main class="container">
+        <section id="scripts" class="hub-section">
+            <h2 class="section-label">Roblox Scripts</h2>
             <div class="grid">
                 <div class="card">
-                    <div class="card-icon">💎</div>
-                    <h3>Project Database</h3>
-                    <p>Track all ongoing developments within the Emerald network.</p>
+                    <div class="card-tag update">Updated</div>
+                    <h3>99 Nights Script</h3>
+                    <p>Status: <span class="status-green">Undetected</span></p>
+                    <p class="card-desc">Advanced features for 99 Nights. Optimized for performance.</p>
+                    <button class="btn-card disabled">Copy Loadstring (Beta)</button>
                 </div>
                 <div class="card">
-                    <div class="card-icon">🛡️</div>
-                    <h3>Security Node</h3>
-                    <p>Manage permissions and access protocols for the hub.</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">🚀</div>
-                    <h3>Deployment Tools</h3>
-                    <p>Quick-launch templates for new Emerald sub-projects.</p>
+                    <div class="card-tag hot">Hot</div>
+                    <h3>Auto-Farm Suite</h3>
+                    <p>Status: <span class="status-orange">In Testing</span></p>
+                    <p class="card-desc">Universal auto-farming tool with anti-cheat bypass.</p>
+                    <button class="btn-card disabled">Private Beta Only</button>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <section id="launchers" class="hub-section">
+            <h2 class="section-label">Minecraft Launchers</h2>
+            <div class="grid">
+                <div class="card mc-card">
+                    <div class="card-tag soon">Soon</div>
+                    <h3>Emerald Launcher</h3>
+                    <p>Status: <span class="status-red">Unreleased</span></p>
+                    <p class="card-desc">Custom launcher featuring built-in performance clients and exclusive texture packs.</p>
+                    <button class="btn-card disabled">Download Not Released</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="request" class="request-box">
+            <h2>Need something specific?</h2>
+            <p>Custom scripts, private launchers, or specialized tools? Hit us up on Discord.</p>
+            <a href="https://discord.com/users/1462211216306077747" target="_blank" class="btn-primary">Message the Devs</a>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2026 EmeraldHub.dev | Built with GitHub</p>
+        <div class="container">
+            <p>&copy; 2026 Emerald Hub. Not affiliated with Roblox or Mojang.</p>
+        </div>
     </footer>
 
 </body>
